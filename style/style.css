@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.discs_container {
+    width: 70%; 
+    margin: auto; 
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.disc {
+    width: 20%;
+}
+
+.disc img {
+    width: 200px;
+    height: 200px;
+}
